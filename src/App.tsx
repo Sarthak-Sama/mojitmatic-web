@@ -1,5 +1,4 @@
-import React from "react";
-import { Parallax, ParallaxProvider } from "react-scroll-parallax";
+import { ParallaxProvider } from "react-scroll-parallax";
 import BentoGrid from "./components/BentoGrid";
 import CommandDemo from "./components/CommandDemo";
 import Footer from "./components/Footer";

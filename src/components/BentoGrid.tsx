@@ -50,7 +50,7 @@ function BentoGrid() {
   const handleChromeDownload = () => {
     // Download the extension file
     const link = document.createElement("a");
-    link.href = "/extensions/mojimatic.crx"; // Update with actual path to your .crx file
+    link.href = "/extensions/MojiMatic.crx"; // Update with actual path to your .crx file
     link.download = "mojimatic.crx";
     document.body.appendChild(link);
     link.click();
