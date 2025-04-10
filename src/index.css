@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Fontfaces */
+@font-face {
+  font-family: "khand";
+  src: url("/fonts/Khand-Bold.woff") format("truetype");
+}
+@font-face {
+  font-family: "switzer";
+  src: url("/fonts/Switzer-Regular.woff") format("truetype");
+}
+@font-face {
+  font-family: "excon";
+  src: url("/fonts/Excon-Black.woff") format("truetype");
+}
+@font-face {
+  font-family: "satoshi";
+  src: url("/fonts/Satoshi-Variable.woff") format("truetype");
+}
+
+* {
+  font-family: "satoshi", sans-serif;
+}
